@@ -1,0 +1,389 @@
+{
+ "total": 64,
+ "data": [
+  {
+   "customer_id": "C001",
+   "customer_name": "PT Mitra Digital",
+   "segment": "SME",
+   "join_date": "2025-11-28"
+  },
+  {
+   "customer_id": "C002",
+   "customer_name": "Fajar Kartika",
+   "segment": "Retail ",
+   "join_date": "2025-11-17"
+  },
+  {
+   "customer_id": "C003",
+   "customer_name": "Eko Putri",
+   "segment": "Retail ",
+   "join_date": "2025-02-13"
+  },
+  {
+   "customer_id": "C004",
+   "customer_name": "PT Maju Mandiri",
+   "segment": "sme",
+   "join_date": "2025-03-18"
+  },
+  {
+   "customer_id": "C005",
+   "customer_name": "Budi Fajar",
+   "segment": "Retail ",
+   "join_date": "2025-10-10"
+  },
+  {
+   "customer_id": "C005",
+   "customer_name": "budi fajar",
+   "segment": "Retail ",
+   "join_date": "2025-10-10"
+  },
+  {
+   "customer_id": "C006",
+   "customer_name": "PT Berkah Sentosa",
+   "segment": "sme",
+   "join_date": "2025-03-04"
+  },
+  {
+   "customer_id": "C007",
+   "customer_name": "  HENDRA KARTIKA ",
+   "segment": "retail",
+   "join_date": "2025-08-24"
+  },
+  {
+   "customer_id": "C008",
+   "customer_name": "Andi Sari",
+   "segment": "retail",
+   "join_date": "2025-04-23"
+  },
+  {
+   "customer_id": "C009",
+   "customer_name": "Teguh Teguh",
+   "segment": "retail",
+   "join_date": "2025-10-28"
+  },
+  {
+   "customer_id": "C010",
+   "customer_name": "Umar Yuni",
+   "segment": "Retail",
+   "join_date": "2025-06-07"
+  },
+  {
+   "customer_id": "C011",
+   "customer_name": "PT Berkah Sentosa",
+   "segment": "SME",
+   "join_date": "2025-03-04"
+  },
+  {
+   "customer_id": "C012",
+   "customer_name": "PT Sinar Digital",
+   "segment": "SME",
+   "join_date": "2025-09-16"
+  },
+  {
+   "customer_id": "C013",
+   "customer_name": "PT Berkah Sentosa",
+   "segment": "SME",
+   "join_date": ""
+  },
+  {
+   "customer_id": "C014",
+   "customer_name": "  KARTIKA NANDA ",
+   "segment": "Retail",
+   "join_date": "2025-08-06"
+  },
+  {
+   "customer_id": "C015",
+   "customer_name": "PT Sinar Abadi",
+   "segment": "Corporate",
+   "join_date": "2025-03-22"
+  },
+  {
+   "customer_id": "C016",
+   "customer_name": "PT Mitra Abadi",
+   "segment": "CORPORATE",
+   "join_date": "2025-07-18"
+  },
+  {
+   "customer_id": "C017",
+   "customer_name": "Lukman Sari",
+   "segment": "retail",
+   "join_date": "2025-11-23"
+  },
+  {
+   "customer_id": "C018",
+   "customer_name": "PT Cahaya Sentosa",
+   "segment": "SME",
+   "join_date": "2025-08-02"
+  },
+  {
+   "customer_id": "C019",
+   "customer_name": "Andi Umar",
+   "segment": "Retail ",
+   "join_date": "2025-09-08"
+  },
+  {
+   "customer_id": "C019",
+   "customer_name": "andi umar",
+   "segment": "Retail ",
+   "join_date": "2025-09-08"
+  },
+  {
+   "customer_id": "C020",
+   "customer_name": "PT Berkah Jaya",
+   "segment": "CORPORATE",
+   "join_date": "2025-11-19"
+  },
+  {
+   "customer_id": "C021",
+   "customer_name": "  PT SINAR ABADI ",
+   "segment": "CORPORATE",
+   "join_date": "2025-10-01"
+  },
+  {
+   "customer_id": "C022",
+   "customer_name": "Indah Putri",
+   "segment": "Retail ",
+   "join_date": "2025-09-09"
+  },
+  {
+   "customer_id": "C023",
+   "customer_name": "PT Mitra Jaya",
+   "segment": "sme",
+   "join_date": "2025-01-28"
+  },
+  {
+   "customer_id": "C024",
+   "customer_name": "PT Berkah Mandiri",
+   "segment": "SME",
+   "join_date": "2025-02-17"
+  },
+  {
+   "customer_id": "C025",
+   "customer_name": "Hendra Kartika",
+   "segment": "Retail",
+   "join_date": "2025-12-02"
+  },
+  {
+   "customer_id": "C026",
+   "customer_name": "PT Cahaya Digital",
+   "segment": "sme",
+   "join_date": ""
+  },
+  {
+   "customer_id": "C027",
+   "customer_name": "Budi Hendra",
+   "segment": "retail",
+   "join_date": "2025-11-10"
+  },
+  {
+   "customer_id": "C028",
+   "customer_name": "  EKO ANDI ",
+   "segment": "Retail",
+   "join_date": "2025-04-10"
+  },
+  {
+   "customer_id": "C029",
+   "customer_name": "PT Nusantara Sentosa",
+   "segment": "SME",
+   "join_date": "2025-02-12"
+  },
+  {
+   "customer_id": "C030",
+   "customer_name": "Putri Oki",
+   "segment": "Retail",
+   "join_date": "2025-01-11"
+  },
+  {
+   "customer_id": "C031",
+   "customer_name": "Kartika Maya",
+   "segment": "Retail ",
+   "join_date": "2025-03-22"
+  },
+  {
+   "customer_id": "C032",
+   "customer_name": "Dewi Dewi",
+   "segment": "retail",
+   "join_date": "2025-01-18"
+  },
+  {
+   "customer_id": "C032",
+   "customer_name": "dewi dewi",
+   "segment": "retail",
+   "join_date": "2025-01-18"
+  },
+  {
+   "customer_id": "C033",
+   "customer_name": "Hendra Budi",
+   "segment": "Retail ",
+   "join_date": "2025-08-01"
+  },
+  {
+   "customer_id": "C034",
+   "customer_name": "PT Mitra Abadi",
+   "segment": "SME",
+   "join_date": "2025-06-23"
+  },
+  {
+   "customer_id": "C035",
+   "customer_name": "  DEWI ANDI ",
+   "segment": "Retail",
+   "join_date": "2025-02-15"
+  },
+  {
+   "customer_id": "C036",
+   "customer_name": "PT Sinar Digital",
+   "segment": "CORPORATE",
+   "join_date": "2025-03-05"
+  },
+  {
+   "customer_id": "C037",
+   "customer_name": "PT Cahaya Mandiri",
+   "segment": "SME",
+   "join_date": "2025-05-19"
+  },
+  {
+   "customer_id": "C038",
+   "customer_name": "Eko Teguh",
+   "segment": "Retail ",
+   "join_date": "2025-12-08"
+  },
+  {
+   "customer_id": "C039",
+   "customer_name": "Gita Citra",
+   "segment": "Retail",
+   "join_date": ""
+  },
+  {
+   "customer_id": "C040",
+   "customer_name": "PT Sinar Abadi",
+   "segment": "SME",
+   "join_date": "2025-12-21"
+  },
+  {
+   "customer_id": "C041",
+   "customer_name": "Zaki Indah",
+   "segment": "Retail ",
+   "join_date": "2025-01-21"
+  },
+  {
+   "customer_id": "C042",
+   "customer_name": "  NANDA UMAR ",
+   "segment": "Retail",
+   "join_date": "2025-06-21"
+  },
+  {
+   "customer_id": "C043",
+   "customer_name": "Maya Maya",
+   "segment": "Retail",
+   "join_date": "2025-02-07"
+  },
+  {
+   "customer_id": "C044",
+   "customer_name": "PT Cahaya Digital",
+   "segment": "sme",
+   "join_date": "2025-11-12"
+  },
+  {
+   "customer_id": "C045",
+   "customer_name": "PT Mitra Digital",
+   "segment": "sme",
+   "join_date": "2025-10-19"
+  },
+  {
+   "customer_id": "C046",
+   "customer_name": "PT Nusantara Mandiri",
+   "segment": "sme",
+   "join_date": "2025-05-14"
+  },
+  {
+   "customer_id": "C047",
+   "customer_name": "Eko Dewi",
+   "segment": "retail",
+   "join_date": "2025-12-02"
+  },
+  {
+   "customer_id": "C048",
+   "customer_name": "PT Maju Sentosa",
+   "segment": "sme",
+   "join_date": "2025-08-11"
+  },
+  {
+   "customer_id": "C048",
+   "customer_name": "pt maju sentosa",
+   "segment": "sme",
+   "join_date": "2025-08-11"
+  },
+  {
+   "customer_id": "C049",
+   "customer_name": "  PT SINAR MANDIRI ",
+   "segment": "corporate",
+   "join_date": "2025-01-02"
+  },
+  {
+   "customer_id": "C050",
+   "customer_name": "Gita Joko",
+   "segment": "Retail ",
+   "join_date": "2025-06-09"
+  },
+  {
+   "customer_id": "C051",
+   "customer_name": "Eko Umar",
+   "segment": "Retail",
+   "join_date": "2025-08-11"
+  },
+  {
+   "customer_id": "C052",
+   "customer_name": "Oki Gita",
+   "segment": "Retail ",
+   "join_date": ""
+  },
+  {
+   "customer_id": "C053",
+   "customer_name": "Andi Lukman",
+   "segment": "Retail ",
+   "join_date": "2025-02-10"
+  },
+  {
+   "customer_id": "C054",
+   "customer_name": "Dewi Kartika",
+   "segment": "retail",
+   "join_date": "2025-10-13"
+  },
+  {
+   "customer_id": "C055",
+   "customer_name": "PT Mitra Abadi",
+   "segment": "corporate",
+   "join_date": "2025-01-07"
+  },
+  {
+   "customer_id": "C056",
+   "customer_name": "  ZAKI BUDI ",
+   "segment": "Retail",
+   "join_date": "2025-08-11"
+  },
+  {
+   "customer_id": "C057",
+   "customer_name": "Sari Vina",
+   "segment": "Retail ",
+   "join_date": "2025-01-17"
+  },
+  {
+   "customer_id": "C058",
+   "customer_name": "Nanda Vina",
+   "segment": "Retail",
+   "join_date": "2025-12-20"
+  },
+  {
+   "customer_id": "C059",
+   "customer_name": "Maya Hendra",
+   "segment": "retail",
+   "join_date": "2025-05-27"
+  },
+  {
+   "customer_id": "C060",
+   "customer_name": "Eko Wahyu",
+   "segment": "retail",
+   "join_date": "2025-07-17"
+  }
+ ]
+}

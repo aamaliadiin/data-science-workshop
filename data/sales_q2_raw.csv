@@ -1,0 +1,265 @@
+transaction_id,transaction_date,customer_id,city,product_id,product_name,category,quantity,unit_price
+TRQ00001,2026-04-20,C058,surabaya ,P01,Paket Internet 20 Mbps,Internet,3,250000
+TRQ00002,2026-05-16,C015,sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00003,2026-06-18,C037,Sidoarjo,P01,Paket Internet 20 Mbps,Internet,3,250000
+TRQ00004,2026-06-17,C012,Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00005,2026-06-26,C046,surabaya ,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00006,2026-04-07,C019,Surabaya,P04,Router WiFi,Perangkat,1,450000
+TRQ00007,2026-06-27,C045,Malang,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00008,2026-06-02,C045, Malang,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00009,30/06/2026,C008,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00010,2026-04-21,C059,Malang,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00008,2026-06-02,C045, Malang,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00011,2026-06-14,C010,SURABAYA,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00012,2026-05-15,C048,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00013,2026-06-06,C034,Surabaya,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00014,2026-04-08,C033,malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00015,2026-05-18,C007,malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00016,2026-05-13,C004,SURABAYA,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00017,2026-05-01,C026,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00018,05/05/2026,C009,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00019,2026-05-11,C021,Batu,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00020,2026-06-13,C008,Sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00021,2026-04-12,C013,MALANG,P07,Upgrade Bandwidth,Layanan,3,200000
+TRQ00022,2026-06-25,C049,PASURUAN ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00023,2026-04-26,C059, Malang,P05,Access Point Mesh,Perangkat,,850000
+TRQ00024,2026-04-14,C022, Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00025,2026-06-07,C035,Malang,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00026,2026-05-01,C025,Batu,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00027,26/06/2026,C010,Surabaya,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00028,2026-05-14,C011,Surabaya,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00029,2026-04-16,C035,malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00030,2026-04-20,C033,malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00031,2026-06-21,C009,malang,P04,Router WiFi,Perangkat,3,450000
+TRQ00032,2026-06-05,C053,Surabaya,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00033,2026-04-20,C047,malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00034,2026-06-10,C052,surabaya ,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00035,2026-04-30,C051,MALANG,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00036,11/06/2026,C024,SURABAYA,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00037,2026-05-17,C045, Malang,P02,Paket Internet 50 Mbps,Internet,1,-400000
+TRQ00038,2026-04-23,C029,MALANG,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00039,2026-06-05,C011,surabaya ,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00040,2026-06-23,C020, Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00041,2026-05-18,C018,sidoarjo,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00042,2026-05-17,C004,surabaya ,P04,Router WiFi,Perangkat,1,450000
+TRQ00043,2026-06-01,C024,SURABAYA,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00044,2026-05-12,C017,Sidoarjo,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00045,26/06/2026,C055,malang,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00046,2026-05-23,C001,sidoarjo,P06,Biaya Instalasi,Layanan,,150000
+TRQ00047,2026-06-19,C020,Malang,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00048,2026-04-07,C027,malang,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00049,2026-06-19,C025,Batu,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00050,2026-06-02,C025,batu,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00051,2026-05-30,C032,surabaya ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00052,2026-06-27,C016,surabaya ,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00053,2026-04-09,C041,surabaya ,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00054,12/05/2026,C047,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00055,2026-06-16,C034,surabaya ,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00056,2026-04-07,C012,malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00057,2026-05-25,C006,MALANG,P01,Paket Internet 20 Mbps,Internet,3,250000
+TRQ00058,2026-06-04,C017,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00059,2026-04-23,C045,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00060,2026-05-07,C018,Sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00058,2026-06-04,C017,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00061,2026-05-21,C028,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00062,2026-04-30,C028,MALANG,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00063,25/04/2026,C019,Surabaya,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00064,2026-05-01,C049,PASURUAN ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00065,2026-06-03,C043,SURABAYA,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00066,2026-06-21,C005,Sidoarjo,P05,Access Point Mesh,Perangkat,2,850000
+TRQ00067,2026-04-15,C047,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00068,2026-06-27,C011,Surabaya,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00069,2026-05-28,C050,Malang,P01,Paket Internet 20 Mbps,Internet,,250000
+TRQ00070,2026-06-13,C032,Surabaya,P04,Router WiFi,Perangkat,1,450000
+TRQ00071,2026-06-28,C009, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00072,25/05/2026,C011,SURABAYA,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00073,2026-05-31,C013,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00074,2026-05-01,C021,Batu,P06,Biaya Instalasi,Layanan,1,-150000
+TRQ00075,2026-06-11,C058,surabaya ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00076,2026-06-21,C005,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00077,2026-05-08,C003,MALANG,P07,Upgrade Bandwidth,Layanan,3,200000
+TRQ00078,2026-05-29,C022,Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00079,2026-06-11,C021,Batu,P04,Router WiFi,Perangkat,2,450000
+TRQ00080,2026-06-29,C008,Sidoarjo,P04,Router WiFi,Perangkat,2,450000
+TRQ00081,16/06/2026,C028,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00082,2026-05-30,C054,Sidoarjo,P05,Access Point Mesh,Perangkat,2,850000
+TRQ00083,2026-06-24,C039, Malang,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00084,2026-06-26,C027,Malang,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00085,2026-04-13,C037,sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00086,2026-06-26,C020,MALANG,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00087,2026-05-14,C032,SURABAYA,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00088,2026-06-05,C009,Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00089,2026-05-08,C055,Malang,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00090,20/06/2026,C042,Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00091,2026-06-19,C048,Surabaya,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00092,2026-05-04,C005,sidoarjo,P04,Router WiFi,Perangkat,,450000
+TRQ00093,2026-05-02,C042,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00094,2026-05-31,C055,Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00095,2026-06-27,C010,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00096,2026-06-11,C001,sidoarjo,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00097,2026-05-26,C047,MALANG,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00098,2026-05-14,C028,malang,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00099,06/05/2026,C050,MALANG,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00100,2026-06-29,C046,Surabaya,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00101,2026-05-18,C014,SURABAYA,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00102,2026-05-19,C045, Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00103,2026-06-06,C035,Malang,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00104,2026-05-04,C030,surabaya ,P05,Access Point Mesh,Perangkat,3,850000
+TRQ00105,2026-05-07,C045,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00106,2026-05-21,C013,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00107,2026-04-04,C048,surabaya ,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00108,19/06/2026,C059,malang,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00109,2026-04-11,C059,MALANG,P05,Access Point Mesh,Perangkat,1,850000
+TRQ00110,2026-06-27,C007, Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00111,2026-06-21,C024,SURABAYA,P04,Router WiFi,Perangkat,1,-450000
+TRQ00112,2026-04-19,C004,surabaya ,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00113,2026-05-16,C035,Malang,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00114,2026-06-09,C045,MALANG,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00115,2026-06-22,C058,Surabaya,P01,Paket Internet 20 Mbps,Internet,,250000
+TRQ00116,2026-05-30,C009, Malang,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00117,25/04/2026,C024,surabaya ,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00118,2026-06-08,C035,Malang,P04,Router WiFi,Perangkat,2,450000
+TRQ00119,2026-05-27,C033, Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00120,2026-05-18,C043,Surabaya,P04,Router WiFi,Perangkat,1,450000
+TRQ00121,2026-06-22,C042, Malang,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00122,2026-05-20,C048,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00120,2026-05-18,C043,Surabaya,P04,Router WiFi,Perangkat,1,450000
+TRQ00123,2026-06-06,C013,MALANG,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00124,2026-06-12,C033, Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00125,2026-04-28,C050, Malang,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00126,25/05/2026,C017,Sidoarjo,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00127,2026-06-19,C009,Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00128,2026-04-26,C009,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00129,2026-05-13,C021,Batu,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00130,2026-05-26,C052,SURABAYA,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00131,2026-06-02,C002,Surabaya,P02,Paket Internet 50 Mbps,Internet,3,400000
+TRQ00132,2026-06-01,C037,Sidoarjo,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00133,2026-06-13,C034,Surabaya,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00134,2026-05-25,C059, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00135,12/06/2026,C014,SURABAYA,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00136,2026-06-01,C032,surabaya ,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00137,2026-05-18,C050, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00138,2026-05-23,C009,malang,P02,Paket Internet 50 Mbps,Internet,,400000
+TRQ00139,2026-05-06,C009,MALANG,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00140,2026-06-12,C018,sidoarjo,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00141,2026-05-09,C053,Surabaya,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00142,2026-04-26,C011,SURABAYA,P02,Paket Internet 50 Mbps,Internet,3,400000
+TRQ00143,2026-04-30,C008,sidoarjo,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00144,01/06/2026,C057,malang,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00145,2026-05-08,C040, Malang,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00146,2026-06-14,C019,Surabaya,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00147,2026-05-29,C026,Sidoarjo,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00148,2026-06-29,C024,surabaya ,P03,Paket Internet 100 Mbps,Internet,3,-650000
+TRQ00149,2026-06-12,C020,malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00150,2026-04-15,C044,sidoarjo,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00151,2026-06-04,C022,malang,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00152,2026-06-04,C004,Surabaya,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00153,30/06/2026,C024,Surabaya,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00154,2026-05-14,C038,SURABAYA,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00155,2026-04-17,C053,surabaya ,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00156,2026-06-29,C041,Surabaya,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00157,2026-05-17,C056,PASURUAN ,P02,Paket Internet 50 Mbps,Internet,3,400000
+TRQ00158,2026-04-27,C011,Surabaya,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00159,2026-05-28,C015,Sidoarjo,P03,Paket Internet 100 Mbps,Internet,3,650000
+TRQ00160,2026-05-18,C022, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00161,2026-06-02,C011,Surabaya,P01,Paket Internet 20 Mbps,Internet,,250000
+TRQ00162,30/04/2026,C051, Malang,P06,Biaya Instalasi,Layanan,2,150000
+TRQ00163,2026-06-16,C045,MALANG,P04,Router WiFi,Perangkat,1,450000
+TRQ00164,2026-04-23,C029, Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00165,2026-05-10,C054,Sidoarjo,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00166,2026-05-06,C043,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00167,2026-05-31,C058,surabaya ,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00168,2026-04-28,C039,malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00169,2026-05-29,C030,Surabaya,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00170,2026-05-18,C041,Surabaya,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00171,04/04/2026,C016,SURABAYA,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00172,2026-05-19,C001,sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00173,2026-04-12,C047,Malang,P06,Biaya Instalasi,Layanan,3,150000
+TRQ00174,2026-05-30,C050,MALANG,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00175,2026-05-03,C052,surabaya ,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00176,2026-06-17,C031,sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00177,2026-06-12,C031,Sidoarjo,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00178,2026-04-11,C025,Batu,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00179,2026-05-20,C053,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00180,29/06/2026,C027,Malang,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00181,2026-05-08,C045,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00182,2026-05-07,C044,Sidoarjo,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00183,2026-04-18,C021,Batu,P07,Upgrade Bandwidth,Layanan,2,200000
+TRQ00184,2026-06-06,C031,sidoarjo,P02,Paket Internet 50 Mbps,Internet,,400000
+TRQ00185,2026-06-07,C052,Surabaya,P06,Biaya Instalasi,Layanan,3,-150000
+TRQ00186,2026-05-31,C059,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00187,2026-05-13,C050,malang,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00188,2026-06-02,C048,Surabaya,P06,Biaya Instalasi,Layanan,3,150000
+TRQ00189,09/04/2026,C007,malang,P03,Paket Internet 100 Mbps,Internet,3,650000
+TRQ00190,2026-05-26,C057,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00191,2026-05-16,C031,sidoarjo,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00192,2026-05-22,C029,malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00193,2026-06-08,C060,Batu,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00194,2026-05-20,C004,Surabaya,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00195,2026-04-28,C021,batu,P07,Upgrade Bandwidth,Layanan,3,200000
+TRQ00196,2026-04-27,C044,Sidoarjo,P02,Paket Internet 50 Mbps,Internet,3,400000
+TRQ00197,2026-06-13,C018,Sidoarjo,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00198,24/05/2026,C013,malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00199,2026-06-15,C049,Pasuruan,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00200,2026-06-09,C013,Malang,P05,Access Point Mesh,Perangkat,3,850000
+TRQ00201,2026-05-05,C007,Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00202,2026-06-19,C014,Surabaya,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00203,2026-04-12,C020,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00201,2026-05-05,C007,Malang,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00204,2026-05-10,C008,sidoarjo,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00205,2026-06-08,C031,Sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00206,2026-05-08,C045,malang,P06,Biaya Instalasi,Layanan,3,150000
+TRQ00207,16/04/2026,C015,sidoarjo,P05,Access Point Mesh,Perangkat,,850000
+TRQ00208,2026-06-17,C057,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00209,2026-06-05,C047,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00210,2026-06-14,C009,MALANG,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00211,2026-04-16,C004,surabaya ,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00212,2026-06-27,C029,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00213,2026-05-20,C058,SURABAYA,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00214,2026-05-16,C043,SURABAYA,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00215,2026-05-06,C037,Sidoarjo,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00216,30/06/2026,C002,surabaya ,P05,Access Point Mesh,Perangkat,2,850000
+TRQ00217,2026-06-13,C050,MALANG,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00218,2026-06-19,C019,surabaya ,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00219,2026-05-09,C048,surabaya ,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00220,2026-05-22,C050, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00221,2026-05-30,C032,surabaya ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00222,2026-06-03,C023,Surabaya,P06,Biaya Instalasi,Layanan,1,-150000
+TRQ00223,2026-06-23,C057, Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00224,2026-05-13,C007,MALANG,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00225,04/05/2026,C059,MALANG,P03,Paket Internet 100 Mbps,Internet,1,650000
+TRQ00226,2026-06-09,C057,Malang,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00227,2026-06-17,C029,MALANG,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00228,2026-05-24,C003, Malang,P06,Biaya Instalasi,Layanan,3,150000
+TRQ00229,2026-06-01,C045,Malang,P04,Router WiFi,Perangkat,1,450000
+TRQ00230,2026-04-22,C025,Batu,P07,Upgrade Bandwidth,Layanan,,200000
+TRQ00231,2026-06-07,C051,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00232,2026-06-12,C020, Malang,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00233,2026-06-20,C036,sidoarjo,P04,Router WiFi,Perangkat,1,450000
+TRQ00234,26/04/2026,C042, Malang,P01,Paket Internet 20 Mbps,Internet,3,250000
+TRQ00235,2026-06-29,C049,PASURUAN ,P04,Router WiFi,Perangkat,1,450000
+TRQ00236,2026-05-21,C053,Surabaya,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00237,2026-05-30,C052,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00238,2026-06-24,C013, Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00239,2026-04-18,C046,SURABAYA,P07,Upgrade Bandwidth,Layanan,3,200000
+TRQ00240,2026-04-05,C033,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00241,2026-06-18,C019,SURABAYA,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00242,2026-04-09,C023,Surabaya,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00243,25/05/2026,C041,surabaya ,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00244,2026-05-22,C033,MALANG,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00245,2026-04-15,C033,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00246,2026-04-22,C040,malang,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00247,2026-05-06,C060,batu,P02,Paket Internet 50 Mbps,Internet,2,400000
+TRQ00248,2026-04-21,C016,SURABAYA,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00249,2026-06-19,C035,MALANG,P01,Paket Internet 20 Mbps,Internet,2,250000
+TRQ00250,2026-04-26,C045, Malang,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00251,2026-04-29,C060,Batu,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00252,18/04/2026,C050, Malang,P03,Paket Internet 100 Mbps,Internet,2,650000
+TRQ00253,2026-05-18,C055,Malang,P01,Paket Internet 20 Mbps,Internet,,250000
+TRQ00254,2026-04-25,C012,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000
+TRQ00255,2026-05-20,C010,Surabaya,P02,Paket Internet 50 Mbps,Internet,1,400000
+TRQ00256,2026-06-25,C041,Surabaya,P07,Upgrade Bandwidth,Layanan,1,200000
+TRQ00257,2026-05-12,C053,Surabaya,P04,Router WiFi,Perangkat,1,450000
+TRQ00258,2026-04-11,C017,sidoarjo,P06,Biaya Instalasi,Layanan,1,150000
+TRQ00259,2026-04-21,C058,SURABAYA,P02,Paket Internet 50 Mbps,Internet,1,-400000
+TRQ00260,2026-06-01,C013,Malang,P01,Paket Internet 20 Mbps,Internet,1,250000

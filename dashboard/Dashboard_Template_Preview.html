@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Penjualan</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#F4F7F7;--card:#fff;--ink:#0B2B2A;--muted:#5B6B6A;--teal:#0F766E;--teal2:#14B8A6;--amber:#F59E0B;--slate:#94A3B8;--line:#E2E8E8}
+*{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:24px 32px 8px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px}
+h1{margin:0;font-size:24px}.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.tab{border:1px solid var(--line);background:#fff;padding:8px 14px;border-radius:999px;cursor:pointer;font-size:13px;margin-left:6px;color:var(--ink)}
+.tab.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+main{padding:16px 32px 32px;display:grid;gap:16px;grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.kpi .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}.kpi .v{font-size:26px;font-weight:700;margin-top:6px;color:var(--teal)}
+.span4{grid-column:span 4}.span2{grid-column:span 2}h3{margin:0 0 10px;font-size:15px}
+.ch{position:relative;height:280px}table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600}td.n{text-align:right}
+#segcard{display:none}
+@media(max-width:800px){main{grid-template-columns:1fr 1fr;padding:12px}.span2,.span4{grid-column:span 2}header{padding:16px 12px 0}}
+</style></head><body>
+<header><div><h1>📊 Dashboard Penjualan</h1><div class="sub">Workshop Data Pipeline Sederhana · data fiktif untuk latihan</div></div><div><button class="tab on" data-k="q1">Q1 2026</button></div></header>
+<main>
+<div class="card kpi"><div class="l">Total Revenue</div><div class="v" id="k1"></div></div>
+<div class="card kpi"><div class="l">Transaksi</div><div class="v" id="k2"></div></div>
+<div class="card kpi"><div class="l">Pelanggan</div><div class="v" id="k3"></div></div>
+<div class="card kpi"><div class="l">Rata-rata / Transaksi</div><div class="v" id="k4"></div></div>
+<div class="card span4"><h3>Revenue Harian</h3><div class="ch"><canvas id="cDaily"></canvas></div></div>
+<div class="card span2"><h3>Revenue per Kota</h3><div class="ch"><canvas id="cCity"></canvas></div></div>
+<div class="card span2"><h3>Komposisi Kategori</h3><div class="ch"><canvas id="cCat"></canvas></div></div>
+<div class="card span2" id="segcard"><h3>Revenue per Segmen</h3><div class="ch"><canvas id="cSeg"></canvas></div></div>
+<div class="card span2" id="topcard"><h3>Top Produk</h3><table id="tTop"></table></div>
+</main>
+<script>
+const DATA={"q1": {"kpi": {"revenue": 146350000.0, "trx": 300, "cust": 59, "aov": 487833.3333333333}, "daily": {"labels": ["2026-01-01", "2026-01-02", "2026-01-03", "2026-01-04", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-10", "2026-01-11", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-17", "2026-01-18", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-24", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-01-31", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-07", "2026-02-08", "2026-02-09", "2026-02-10", "2026-02-12", "2026-02-13", "2026-02-14", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21", "2026-02-22", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-02-28", "2026-03-01", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-07", "2026-03-08", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-14", "2026-03-15", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-21", "2026-03-22", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-29", "2026-03-30", "2026-03-31"], "values": [450000.0, 850000.0, 1650000.0, 450000.0, 650000.0, 1950000.0, 2750000.0, 200000.0, 450000.0, 1600000.0, 3150000.0, 800000.0, 450000.0, 850000.0, 600000.0, 1450000.0, 2750000.0, 650000.0, 650000.0, 1750000.0, 2800000.0, 1000000.0, 1650000.0, 450000.0, 150000.0, 200000.0, 2000000.0, 200000.0, 2000000.0, 1300000.0, 2000000.0, 1300000.0, 250000.0, 3550000.0, 2200000.0, 1050000.0, 1200000.0, 4100000.0, 1300000.0, 3800000.0, 1050000.0, 1100000.0, 2000000.0, 850000.0, 550000.0, 2150000.0, 850000.0, 1600000.0, 2900000.0, 1100000.0, 2600000.0, 2150000.0, 900000.0, 4550000.0, 3700000.0, 1650000.0, 1350000.0, 1750000.0, 2650000.0, 2750000.0, 1650000.0, 1500000.0, 950000.0, 500000.0, 2050000.0, 1000000.0, 900000.0, 1150000.0, 1850000.0, 900000.0, 2150000.0, 400000.0, 1450000.0, 650000.0, 2100000.0, 3950000.0, 2200000.0, 3100000.0, 1800000.0, 1800000.0, 1950000.0, 1950000.0, 1000000.0, 1900000.0, 4200000.0, 2800000.0, 5300000.0, 400000.0], "roll": [450000, 650000, 983333, 850000, 810000, 1000000, 1250000, 1214286, 1157143, 1150000, 1535714, 1557143, 1342857, 1071429, 1128571, 1271429, 1435714, 1078571, 1057143, 1242857, 1521429, 1578571, 1607143, 1278571, 1207143, 1142857, 1178571, 807143, 950000, 900000, 1121429, 1285714, 1292857, 1514286, 1800000, 1664286, 1650000, 1950000, 1950000, 2457143, 2100000, 1942857, 2078571, 2028571, 1521429, 1642857, 1221429, 1300000, 1557143, 1428571, 1678571, 1907143, 1728571, 2257143, 2557143, 2378571, 2414286, 2292857, 2364286, 2628571, 2214286, 1900000, 1800000, 1678571, 1721429, 1485714, 1221429, 1150000, 1200000, 1192857, 1428571, 1192857, 1257143, 1221429, 1357143, 1657143, 1842857, 1978571, 2178571, 2228571, 2414286, 2392857, 1971429, 1928571, 2085714, 2228571, 2728571, 2507143]}, "city": {"Surabaya": 58850000, "Malang": 35700000, "Sidoarjo": 24500000, "Batu": 17050000, "Pasuruan": 10250000}, "cat": {"Internet": 88850000, "Layanan": 18950000, "Perangkat": 38550000}, "top": [["Paket Internet 50 Mbps", "Internet", 98, 39200000], ["Paket Internet 100 Mbps", "Internet", 51, 33150000], ["Router WiFi", "Perangkat", 46, 20700000], ["Access Point Mesh", "Perangkat", 21, 17850000], ["Paket Internet 20 Mbps", "Internet", 66, 16500000], ["Biaya Instalasi", "Layanan", 73, 10950000], ["Upgrade Bandwidth", "Layanan", 40, 8000000]]}};
+const rp=v=>"Rp "+Math.round(v).toLocaleString("id-ID");
+const jt=v=>"Rp "+(v/1e6).toLocaleString("id-ID",{maximumFractionDigits:1})+" jt";
+const C={teal:"#0F766E",teal2:"#14B8A6",amber:"#F59E0B",slate:"#94A3B8"};
+let charts=[];
+function render(k){
+  const d=DATA[k]; charts.forEach(c=>c.destroy()); charts=[];
+  k1.textContent=jt(d.kpi.revenue); k2.textContent=d.kpi.trx.toLocaleString("id-ID");
+  k3.textContent=d.kpi.cust; k4.textContent=rp(d.kpi.aov);
+  const yfmt={ticks:{callback:v=>jt(v)},grid:{color:"#EEF2F2"}};
+  charts.push(new Chart(cDaily,{type:"line",data:{labels:d.daily.labels,datasets:[
+    {label:"Revenue",data:d.daily.values,borderColor:C.slate,borderWidth:1,pointRadius:0},
+    {label:"Rata-rata 7 hari",data:d.daily.roll,borderColor:C.teal,borderWidth:3,pointRadius:0,tension:.3}]},
+    options:{maintainAspectRatio:false,scales:{y:yfmt,x:{ticks:{maxTicksLimit:10},grid:{display:false}}},plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+": "+rp(c.raw)}}}}}));
+  charts.push(new Chart(cCity,{type:"bar",data:{labels:Object.keys(d.city),datasets:[{data:Object.values(d.city),backgroundColor:C.teal2,borderRadius:6}]},
+    options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>rp(c.raw)}}},scales:{x:yfmt,y:{grid:{display:false}}}}}));
+  charts.push(new Chart(cCat,{type:"doughnut",data:{labels:Object.keys(d.cat),datasets:[{data:Object.values(d.cat),backgroundColor:[C.teal,C.amber,C.slate]}]},
+    options:{maintainAspectRatio:false,cutout:"60%",plugins:{legend:{position:"right"},tooltip:{callbacks:{label:c=>c.label+": "+rp(c.raw)}}}}}));
+  segcard.style.display=d.seg?"block":"none";
+  if(d.seg) charts.push(new Chart(cSeg,{type:"bar",data:{labels:Object.keys(d.seg),datasets:[{data:Object.values(d.seg),backgroundColor:[C.teal,C.amber,C.slate],borderRadius:6}]},
+    options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>rp(c.raw)}}},scales:{y:yfmt,x:{grid:{display:false}}}}}));
+  topcard.className="card "+(d.seg?"span2":"span2");
+  tTop.innerHTML="<tr><th>Produk</th><th>Kategori</th><th class=n>Qty</th><th class=n>Revenue</th></tr>"+
+    d.top.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td class=n>${r[2]}</td><td class=n>${rp(r[3])}</td></tr>`).join("");
+}
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));b.classList.add("on");render(b.dataset.k)});
+render(Object.keys(DATA)[0]);
+</script></body></html>
