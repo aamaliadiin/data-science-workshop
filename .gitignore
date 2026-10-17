@@ -1,36 +1,13 @@
-# Virtual env
+# Kredensial — jangan pernah di-commit
+.env
+*.env
+!.env.example
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 .venv/
 venv/
-env/
-
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Secrets / env
-.env
-.env.*
-!.env.example
-
-# Streamlit secrets
-.streamlit/secrets.toml
-
-# Data (jangan push data mentah / kredensial)
-*.csv
-*.xlsx
-*.parquet
-*.sqlite
-*.db
-
-# IDE / OS
-.vscode/
-.idea/
+# Output lokal
+*.log
 .DS_Store
-Thumbs.db

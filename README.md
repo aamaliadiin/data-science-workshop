@@ -43,8 +43,8 @@ git config --global user.email "email-github@anda.com"
 
 **3. Clone fork Anda & buka di VS Code:**
 ```bash
-git clone https://github.com/<username-anda>/workshop-data-pipeline.git
-cd workshop-data-pipeline
+git clone https://github.com/<username-anda>/data-science-workshop.git
+cd data-science-workshop
 code .
 ```
 Saat VS Code menawarkan *"install recommended extensions"*, klik **Install**.

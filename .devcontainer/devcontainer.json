@@ -1,0 +1,22 @@
+{
+  "name": "Workshop Data Pipeline",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install --user -r requirements.txt && (test -f .env || cp .env.example .env)",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "mechatroniks.rainbow-csv",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
+      ],
+      "settings": {
+        "jupyter.notebookFileRoot": "${containerWorkspaceFolder}"
+      }
+    }
+  },
+  "hostRequirements": {
+    "cpus": 2
+  }
+}

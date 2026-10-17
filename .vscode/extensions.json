@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "mechatroniks.rainbow-csv",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg"
+  ]
+}
