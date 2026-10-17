@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / "submissions" / "cek_kesiapan.md"
-UPSTREAM_USER = "YOUR_GITHUB_USERNAME"
+UPSTREAM_USER = "AisahAlfiyatusR"
 IN_NOTEBOOK = "ipykernel" in sys.modules   # dicek sebelum library lain di-import
 LIBS = ["pandas", "requests", "sqlalchemy", "psycopg2", "plotly", "streamlit", "dotenv", "ipykernel", "nbformat"]
 
@@ -117,7 +117,7 @@ def c_env():
 @check("Akses GitHub/data")
 def c_api():
     import requests
-    raw = os.getenv("WORKSHOP_RAW_BASE") or f"https://raw.githubusercontent.com/{UPSTREAM_USER}/workshop-data-pipeline/main"
+    raw = os.getenv("WORKSHOP_RAW_BASE") or f"https://raw.githubusercontent.com/{UPSTREAM_USER}/data-science-workshop/main"
     api = os.getenv("API_URL")
     if api:                                   # pemateri memberi alamat API server
         url = api.format(page=1) if "{page}" in api else f"{api}?page=1&page_size=5"
